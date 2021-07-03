@@ -5,7 +5,7 @@ REDIS = redis.Redis(host=os.environ['REDIS_HOST'], port=6379, db=0)
 COLOR = f'rgb({randint(0, 255)},{randint(0, 255)},{randint(0, 255)})'
 HTML = '''<!DOCTYPE html>
 <html><body style="background-color:{}">
-  <h1>Version:1.0, AccessCount:{}, HostName:{}</h1>
+  <h1>Version:2.0, AccessCount:{}, HostName:{}</h1>
 </body><html>'''
 
 app = flask.Flask('app server')
