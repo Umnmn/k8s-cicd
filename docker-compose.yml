@@ -4,7 +4,7 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile
-    image: kubechi/c8dep_app:v2.0
+    image: kubechi/c8dep_app:v3.0
     depends_on:
     - db
     ports:
